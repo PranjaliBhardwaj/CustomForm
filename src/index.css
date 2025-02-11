@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 20px;
+  margin-left:100px;
+}
+
+.form-input {
+  padding: 20px; 
+  background-color: white; 
+  border-radius: 9999px; 
+  border: 1px solid #ccc;
+  width: 600px; 
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: 20px;
+  transition: border-color 0.3s ease;
+  font-family: 'Manrope', sans-serif;
+}
+
+.form-input::placeholder {
+  color: grey;
+}
+
+.form-input:focus {
+  background-color: #f0f0f0;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+.form-button {
+  padding: 15px 40px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: black; 
+  border: 1px solid #ccc;
+  border-radius: 9999px; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  margin: 10px;
+  color: white;
+  margin-right: 100px;
+}
+
+.form-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.form-button:disabled {
+  background-color: #2a2929; /* Disabled button styling */
+  color: #888;
+  cursor: not-allowed;
+}
+
+.form-button:active {
+  background-color: black;
+  color: white;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-preview {
+  margin-top: 20px;
+}
+
+.preview-image {
+  max-width: 200px;
+  border-radius: 10px;
+}
+h1
+{
+  margin-left: 125px;
+  margin-top: 100px;
+  font-weight: 700;
+  font-weight:bold;
+}
